@@ -1,15 +1,27 @@
 .navbar {
-  background-color: #333;
+  background-color: #ffffff;
   padding: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  font-size: 20px;
+  transition: box-shadow 0.3s ease; /* Adiciona uma transição suave */
 }
+
+.navbar:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adiciona o box-shadow ao passar o mouse */
+}
+
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 98%;
   margin: 0 auto;
+}
+
+.navbar-header{
+  display: flex;
+  align-items: center;
 }
 
 .navbar-logo{
@@ -19,7 +31,7 @@
 }
 
 .navbar-brand {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -36,8 +48,9 @@
   margin: 0 1rem;
 }
 
+
 .nav-link {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   font-size: 1rem;
   position: relative;
@@ -51,7 +64,7 @@
   height: 2px;
   bottom: -2px;
   left: 50%;
-  background-color: #fff;
+  background-color: #333;
   transition: width 0.3s ease, left 0.3s ease;
 }
 
@@ -64,20 +77,6 @@
   display: flex;
   gap: 1rem;
   
-}
-
-button {
-  width: 70%;
-  padding: 10px 20px;
-  border-radius: 15px;
-  border: none;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-}
-
-button:hover {
-  box-shadow: 0 2px 4px rgba(241, 241, 241, 0.741);
 }
 
 .nav-icon {
