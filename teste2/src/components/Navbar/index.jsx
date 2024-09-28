@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons'; 
 
 function Navbar() {
@@ -16,7 +16,7 @@ function Navbar() {
       <div className="navbar-container">
         <div className="navbar-header">
           <img className="navbar-logo" src="../../../public/Design_sem_nome__2_-removebg-preview.png" alt="" />
-          <a className="navbar-brand" href="/">Fang</a>
+          <a className="navbar-brand" href="/">Portfolio</a>
         </div>
         <ul className={`navbar-nav ${isMenuOpen ? 'open' : ''}`}>
           <li className="nav-item">
@@ -33,19 +33,8 @@ function Navbar() {
           </li>
         </ul>
 
-        <div className="navbar-user">
-          <li className="nav-item">
-            <a className="nav-link" href="/contact">Procura</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/contact">Conta</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/contact">Bag(2)</a>
-          </li>
-        </div>
 
-        {/* <div className="navbar-icons">
+         <div className="navbar-icons">
           <a className="nav-icon" href="https://github.com" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />
           </a>
@@ -55,7 +44,7 @@ function Navbar() {
           <a className="nav-icon" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-        </div> */}
+        </div> 
         {/* <button className="menu-toggle" onClick={toggleMenu}>
           <FontAwesomeIcon icon={faBars} />
         </button> */}

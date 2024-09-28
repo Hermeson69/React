@@ -51,6 +51,8 @@
 
 .nav-link {
   color: #333;
+  font-size: 1.125rem;
+  font-weight: bold;
   text-decoration: none;
   font-size: 1rem;
   position: relative;
@@ -64,7 +66,7 @@
   height: 2px;
   bottom: -2px;
   left: 50%;
-  background-color: #333;
+  background-color: blueviolet;
   transition: width 0.3s ease, left 0.3s ease;
 }
 
@@ -80,8 +82,8 @@
 }
 
 .nav-icon {
-  color: #fff;
-  font-size: 1.5rem;
+  color: blueviolet;
+  font-size: 1.87rem;
   transition: color 0.3s ease;
 }
 

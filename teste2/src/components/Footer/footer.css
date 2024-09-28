@@ -1,0 +1,36 @@
+.Footer {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    z-index: 1;
+    font-size: 1.125rem;
+    font-weight: bold;
+    transition: box-shadow 0.3s ease; /* Adiciona uma transição suave */
+    text-align: center;
+  }
+
+  
+.Footer:hover {
+    box-shadow: 0 -8px 12px rgba(0, 0, 0, 0.2); /* Adiciona o box-shadow apenas na parte superior ao passar o mouse */
+}
+  
+  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon {
+    color: blueviolet;
+    font-size: 1.87rem;
+    transition: color 0.3s ease;
+    gap: 1;
+}
