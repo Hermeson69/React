@@ -35,7 +35,7 @@ function Navbar() {
 
 
          <div className="navbar-icons">
-          <a className="nav-icon" href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <a className="nav-icon" href="https://github.com/Hermeson69" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a className="nav-icon" href="https://instagram.com" target="_blank" rel="noopener noreferrer">

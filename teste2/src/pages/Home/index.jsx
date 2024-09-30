@@ -1,7 +1,7 @@
 import './Home.css'
 import React from 'react';
-import Navbar from '../../Navbar';
-import Footer from '../../Footer'
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer'
 
 function Home(){
     return(
@@ -23,7 +23,7 @@ function Home(){
           </button>
         </div>
         <figure className='figure'>
-          <img src="https://66.media.tumblr.com/306f5f99679539f16da869ef187f5699/tumblr_p1dyscS7rC1rqe0rbo1_500.gif" alt="Profile" />
+          <img src="../../public/Home.svg" alt="Profile" />
         </figure>
       </section>
       <Footer/>

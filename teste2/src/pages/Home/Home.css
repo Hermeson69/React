@@ -9,7 +9,7 @@
 .container img{
     width: 500px;
     height: 500px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 .container p{
@@ -32,7 +32,15 @@
     border-radius: 10px;
 }
 
+
 .btn-red{
     background-color: blueviolet;
     color: white;
+    transition: box-shadow 0.25s ease;
+}
+
+.btn-red:hover{
+    background-color: rgb(109, 32, 181);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
 }

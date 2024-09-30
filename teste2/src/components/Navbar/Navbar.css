@@ -59,6 +59,10 @@
   transition: color 0.3s ease;
 }
 
+.nav-link:hover{
+  color: blueviolet;
+}
+
 .nav-link::after {
   content: '';
   position: absolute;
