@@ -1,0 +1,69 @@
+.container2, .Ferramentas {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100vh;
+}
+
+.sobre-img {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.conteudo2 p {
+    font-size: 1.250rem;
+}
+
+.conteudo2 span{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.ferramentas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.icones {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+    color: blueviolet;
+}
+
+i{
+    font-size: 2.6rem;
+    margin-top: 0px;
+    margin: 13px;
+    cursor: pointer;
+}
+
+i:hover{
+    color: rgb(88, 35, 137);
+}
