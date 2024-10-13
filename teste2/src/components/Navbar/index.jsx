@@ -3,6 +3,7 @@ import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons'; 
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,21 +16,23 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-header">
-          <img className="navbar-logo" src="../../../public/Design_sem_nome__2_-removebg-preview.png" alt="" />
-          <a className="navbar-brand" href="/">Portfolio</a>
+        <img className="navbar-logo" src="../../../public/Design_sem_nome__2_-removebg-preview.png" alt="" />
+          <Link to="/" className="navbar-brand">
+          Portfolio
+          </Link>
         </div>
         <ul className={`navbar-nav ${isMenuOpen ? 'open' : ''}`}>
           <li className="nav-item">
-            <a className="nav-link" href="/">Home</a>
+            <Link to="/" className="nav-link">Home</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">Sobre</a>
+            <Link to="/sobre" className="nav-link">Sobre</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contact">Projetos</a>
+            <Link to="/projetos" className="nav-link">Projetos</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contact">Dominios</a>
+            <Link to="/" className="nav-link">Contato</Link>
           </li>
         </ul>
 

@@ -17,11 +17,13 @@
   align-items: center;
   width: 98%;
   margin: 0 auto;
+  text-decoration: none;
 }
 
 .navbar-header{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .navbar-logo{
