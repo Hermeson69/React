@@ -12,7 +12,7 @@ function Sobre(){
             <Navbar />
             <section className="container2">
                 <div className="imagem">
-                    <img className="sobre-img" src="https://i.imgur.com/6ZQ5x6D.png"></img>
+                    <img className="sobre-img" src="../../../public/sobre_foto.jpg"></img>
                 </div>
 
                 <div className="conteudo2">
